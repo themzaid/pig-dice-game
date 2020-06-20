@@ -44,7 +44,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
     document.querySelector("#score-" + activePlayer).innerHTML =
       scores[activePlayer];
     // Check if player won the game
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       // hide the dice
       document.querySelector(".dice").style.display = "none";
       // remove active red dot from current player
